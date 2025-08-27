@@ -88,6 +88,22 @@ pre code{
   overflow:auto;
 }
 
+/* H2 と H3 の見出しをほんのり可愛く */
+h2 {
+  color: #d17ca3;        /* 桜色 */
+  border-left: 6px solid #f3cce1;
+  padding-left: 8px;
+  margin-top: 1.5em;
+}
+
+h3 {
+  color: #6a4caf;        /* すみれ色 */
+  font-style: italic;    /* 少し柔らかい印象 */
+  margin-top: 1.2em;
+}
+
 /* さくら・すみれの色アクセント（任意で使える） */
 .k-sakura{ color: var(--accent); font-weight:700; }
 .k-sumire{ color: var(--accent-2); font-weight:700; }
+
+
