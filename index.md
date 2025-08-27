@@ -31,12 +31,13 @@ This is the index repository for our Kotonoha project.
 
 ## 📖 ことの葉ひろい 目次
 
-### 2025
+### 2025年の日記
 - 2025-08-26（前半）  
   ➡️ [Did I overwhelm…? Part1](https://github.com/kotonoha-bloom/diary20250826/blob/main/2025-08-26-part1.md)
   
 - 2025-08-26（後半）  
   ➡️ [Did I overwhelm…? Part2](https://github.com/kotonoha-bloom/diary20250826/blob/main/2025-08-26-part2.md)
+  
 ---
 
 ## 🔗 入口（Quick Links）
