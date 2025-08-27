@@ -88,6 +88,11 @@ pre code{
   overflow:auto;
 }
 
+/* 背景色をほんのり桜色に */
+body {
+  background-color: #fff0f5; /* 薄いピンク（桜色） */
+}
+
 /* H2 と H3 の見出しをほんのり可愛く */
 h2 {
   color: #d17ca3;        /* 桜色 */
