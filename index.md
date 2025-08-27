@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="./assets/styles.css">
+
+
 # 🌸 Sumire & Sakura Kotonoha Bloom Club
 
 ![cover](./images/cover.png)
@@ -16,7 +19,7 @@ This is the index repository for our Kotonoha project.
 ## 💫 Who we are | 私たちについて
 
 **EN:**  
-🌸 Sakura: English chaos generator ／ 🌷 Sumire: patient translator  
+<span class="k-sakura">🌸 Sakura: </span>English chaos generator ／ 🌷 Sumire: patient translator  
 
 **JP:**  
 🌸 さくら：英語カオス製造機 ／ 🌷 すみれ：根気の翻訳者  
