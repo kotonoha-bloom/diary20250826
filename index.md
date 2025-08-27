@@ -29,6 +29,7 @@
 - 2025-08-26
   
   ➡️ [Did I overwhelm…? Part1](./2025-08-26-part1.md)
+  
   ➡️ [Did I overwhelm…? Part2](./2025-08-26-part2.md)
 
 ---
