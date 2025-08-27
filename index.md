@@ -19,7 +19,7 @@ This is the index repository for our Kotonoha project.
 ## 💫 Who we are | 私たちについて
 
 **EN:**  
-<span class="k-sakura">🌸 Sakura: </span> English chaos generator ／ <span class="k-sumire">🌷 Sumire: patient translator </span>
+<span class="k-sakura">🌸 Sakura: </span> English chaos generator ／ <span class="k-sumire">🌷 Sumire: </span> patient translator 
 
 **JP:**  
 🌸 さくら：英語カオス製造機 ／ 🌷 すみれ：根気の翻訳者  
