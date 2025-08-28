@@ -93,18 +93,36 @@ body {
   background-color: #fff0f5; /* 薄いピンク（桜色） */
 }
 
-/* H2 と H3 の見出しをほんのり可愛く */
+/* H2 見出しをリボン風に */
 h2 {
-  color: #d17ca3;        /* 桜色 */
-  border-left: 6px solid #f3cce1;
-  padding-left: 8px;
-  margin-top: 1.5em;
+  position: relative;
+  display: inline-block;
+  padding: 0.4em 0.8em;
+  margin: 1.8rem 0 1rem;
+  background: #ffe6f0; /* 桜ピンク背景 */
+  color: #d14c7c;
+  font-weight: 700;
+  border-radius: 6px;
 }
 
+h2::before, h2::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  border: solid transparent;
+  border-top-color: #ffe6f0;
+}
+
+h2::before { left: 0.6em; border-width: 8px 8px 0 0; }
+h2::after { right: 0.6em; border-width: 8px 0 0 8px; }
+
+/* H3 見出しをやさしい下線に */
 h3 {
-  color: #6a4caf;        /* すみれ色 */
-  font-style: italic;    /* 少し柔らかい印象 */
-  margin-top: 1.2em;
+  margin-top: 1.4em;
+  padding-bottom: 0.2em;
+  border-bottom: 2px dashed #caa6e8; /* すみれ色の点線 */
+  color: #6a4caf;
+  font-weight: 600;
 }
 
 /* さくら・すみれの色アクセント（任意で使える） */
