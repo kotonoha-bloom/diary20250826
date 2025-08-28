@@ -111,4 +111,22 @@ h3 {
 .k-sakura{ color: var(--accent); font-weight:700; }
 .k-sumire{ color: var(--accent-2); font-weight:700; }
 
+/* ボタン風リンク */
+a.btn {
+  display: inline-block;
+  padding: 0.4em 0.9em;
+  margin: 0.3em 0;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #ff9ecb, #ff7aa2); /* さくらピンク系グラデ */
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.25s;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
 
+a.btn:hover {
+  background: linear-gradient(135deg, #ff7aa2, #d17ca3); /* 少し濃い色に */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
