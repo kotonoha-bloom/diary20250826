@@ -1,0 +1,127 @@
+/* ===== Kotonoha "soft" style v1 ===== */
+:root{
+  --ink:#1f2937;          /* 文字色(やや濃いグレー) */
+  --accent:#ff7aa2;       /* さくらピンク */
+  --accent-2:#7ac6ff;     /* すみれブルー(やさしめ) */
+  --paper:#ffffff;        /* 背景 */
+  --muted:#6b7280;        /* 補助文字色 */
+  --hr:#f3f4f6;           /* 区切り線 */
+}
+
+html, body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif;
+  line-height:1.8;
+  letter-spacing:.2px;
+  -webkit-text-size-adjust:100%;
+}
+
+main, .container, .markdown-body, body > div{
+  max-width: 820px;      /* 横幅を読みやすく */
+  margin: 2.2rem auto;
+  padding: 0 1.2rem;
+}
+
+/* 見出しをほんのり可愛く */
+h1, h2, h3{
+  line-height:1.35;
+  margin: 1.6rem 0 .8rem;
+}
+h1{
+  font-weight:800;
+  font-size: clamp(1.8rem, 1.6rem + 1.2vw, 2.4rem);
+  color: var(--accent);
+}
+h2{
+  font-weight:700;
+  border-left: .28rem solid var(--accent-2);
+  padding-left: .6rem;
+}
+h3{
+  font-weight:700;
+  color: var(--muted);
+}
+
+/* 区切り線をやさしく */
+hr{
+  border:0;
+  height:1px;
+  background:linear-gradient(90deg, #0000, var(--hr), #0000);
+  margin: 1.6rem 0;
+}
+
+/* 画像を角丸＆うっすら影 */
+img{
+  max-width:100%;
+  height:auto;
+  border-radius:12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+}
+
+/* 引用を淡いカード風に */
+blockquote{
+  margin: 1rem 0;
+  padding: .8rem 1rem;
+  background: #fafafa;
+  border-left: .35rem solid var(--accent);
+  border-radius: 8px;
+  color: #374151;
+}
+
+/* 箇条書きの行間・余白 */
+ul, ol{
+  padding-left: 1.2rem;
+}
+li{ margin:.2rem 0; }
+
+/* インラインコードやコードブロックを整える（必要なら） */
+code{
+  background:#f6f7f9;
+  padding:.15rem .35rem;
+  border-radius:6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Noto Sans Mono", monospace;
+}
+pre code{
+  display:block;
+  padding: .9rem 1rem;
+  overflow:auto;
+}
+
+/* 背景色をほんのり桜色に */
+body {
+  background-color: #fff0f5; /* 薄いピンク（桜色） */
+}
+
+/* H2 と H3 の見出しをほんのり可愛く */
+h2 {
+  color: #d17ca3;        /* 桜色 */
+  border-left: 6px solid #f3cce1;
+  padding-left: 8px;
+  margin-top: 1.5em;
+}
+
+h3 {
+  color: #6a4caf;        /* すみれ色 */
+  font-style: italic;    /* 少し柔らかい印象 */
+  margin-top: 1.2em;
+}
+
+/* さくら・すみれの色アクセント（任意で使える） */
+.k-sakura{ color: var(--accent); font-weight:700; }
+.k-sumire{ color: var(--accent-2); font-weight:700; }
+
+/* リンクをほんのり可愛いボタン風に */
+a.btn {
+  display:inline-block;
+  padding:.35em .8em;
+  border-radius:8px;
+  background:#ffe3ef;   /* さくら色の淡いピンク */
+  color:#444;
+  text-decoration:none;
+  font-weight:600;
+  transition: background 0.2s;
+}
+a.btn:hover {
+  background:#ffd3e6;   /* ちょっと濃いピンクに変化 */
+}
