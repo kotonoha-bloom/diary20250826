@@ -93,38 +93,41 @@ body {
   background-color: #fff0f5; /* 薄いピンク（桜色） */
 }
 
-/* H2 見出しをリボン風に */
+/* ===== 見出しデザイン (Kotonoha 全体に適用) ===== */
+
+/* h2 → リボン風 (桜ピンク) */
 h2 {
   position: relative;
-  display: inline-block;
-  padding: 0.4em 0.8em;
-  margin: 1.8rem 0 1rem;
-  background: #ffe6f0; /* 桜ピンク背景 */
-  color: #d14c7c;
-  font-weight: 700;
+  background: #ffd6e7;   /* 淡いピンク */
+  color: #c2185b;        /* 濃いめの桜色 */
+  padding: .5em 1em;
   border-radius: 6px;
+  font-weight: bold;
+  margin: 1.8em 0 1em;
 }
-
 h2::before, h2::after {
   content: "";
   position: absolute;
   top: 100%;
-  border: solid transparent;
-  border-top-color: #ffe6f0;
+  border: 8px solid transparent;
+}
+h2::before {
+  left: 10px;
+  border-top-color: #ffb6c1;
+}
+h2::after {
+  right: 10px;
+  border-top-color: #ffb6c1;
 }
 
-h2::before { left: 0.6em; border-width: 8px 8px 0 0; }
-h2::after { right: 0.6em; border-width: 8px 0 0 8px; }
-
-/* H3 見出しをやさしい下線に */
+/* h3 → すみれ色の点線下線 */
 h3 {
+  color: #6a4caf;           /* すみれ色 */
+  border-bottom: 2px dotted #b39ddb;
+  font-style: italic;
   margin-top: 1.4em;
-  padding-bottom: 0.2em;
-  border-bottom: 2px dashed #caa6e8; /* すみれ色の点線 */
-  color: #6a4caf;
-  font-weight: 600;
+  padding-bottom: .2em;
 }
-
 /* さくら・すみれの色アクセント（任意で使える） */
 .k-sakura{ color: var(--accent); font-weight:700; }
 .k-sumire{ color: var(--accent-2); font-weight:700; }
