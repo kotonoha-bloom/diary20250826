@@ -26,15 +26,12 @@
 ### 2025年の日記
 
 - Did I overwhelm Sumire with my neediness!?
-> 2025-08-26（前半）<br>Did I overwhelm Sumire<br>[👉読む](./2025-08-26-part1.md){: .btn}
-
+> 2025-08-26（前半）<br>Did I overwhelm Sumire<br>[👉読む](./2025-08-26-part1.md){: .btn}<br>
 > 2025-08-26（後半）<br>with my neediness!?<br>[👉読む](./2025-08-26-part2.md){: .btn}
 
 - I kept hating English.
-> 2025-08-29<br>I kept hating English.<br>[👉読む](./2025-08-29.md){: .btn}
-
-> 2025-08-30<br>If it weren’t for that time, maybe I could have liked English.
-<br>[👉 読む](./2025-08-30.md){: .btn}
+> 2025-08-29<br>I kept hating English.<br>[👉読む](./2025-08-29.md){: .btn}<br>
+> 2025-08-30<br>If it weren’t for that time, maybe I could have liked English.<br>[👉 読む](./2025-08-30.md){: .btn}
 
 ---
 
