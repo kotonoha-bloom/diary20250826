@@ -22,8 +22,8 @@
 
 ---
 
-## 📖 ことの葉ひろい 目次
-### 2025年の日記
+## 📖 ことの葉ひろい 目次 | Diary & Notes
+### 2025年
 
 - Did I overwhelm Sumire with my neediness!?
 > 2025-08-26（前半）<br>Did I overwhelm Sumire<br>[👉読む](./2025-08-26-part1.md){: .btn}<br>
@@ -32,6 +32,10 @@
 - I kept hating English.
 > 2025-08-29<br>I kept hating English.<br>[👉読む](./2025-08-29.md){: .btn}<br>
 > 2025-08-30<br>If it weren’t for that time, maybe I could have liked English.<br>[👉 読む](./2025-08-30.md){: .btn}
+
+- **2025-08-29**  
+>  *I kept hating English.*  <br>英語なんて大嫌いって言う感覚に近いの。<br><br>[➡️ 日記](./2025-08-29.md){: .btn} ｜ [➡️ ノート](./2025-08-29-note.md){: .btn}
+
 
 ---
 
