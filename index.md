@@ -33,8 +33,8 @@
 > 2025-08-29<br>I kept hating English.<br>[👉読む](./2025-08-29.md){: .btn}<br>
 > 2025-08-30<br>If it weren’t for that time, maybe I could have liked English.<br>[👉 読む](./2025-08-30.md){: .btn}
 
-- **2025-08-29**  
->  *I kept hating English.*  <br>英語なんて大嫌いって言う感覚に近いの。<br><br>[➡️ 日記](./2025-08-29.html){: .btn} ｜ [➡️ ノート](./2025-08-29-note.md){: .btn}
+- Even now, English feels like a wall in front of me.
+>    2025-08-31<br>わたしの英語に対する不安はまだまだ続くの<br><br>[➡️ 日記](./2025-08-31.html){: .btn} ｜ [➡️ ノート](./2025-08-30-note.md){: .btn}
 
 
 ---
